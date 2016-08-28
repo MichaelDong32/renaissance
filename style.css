@@ -5,6 +5,9 @@ html, body {
 
 .header {
   background-color: #333333;
+  position: fixed;
+  top: 0;
+  width: 100%
 }
 
 .container {
@@ -110,6 +113,7 @@ html, body {
   padding: 0 50px;
   margin-bottom: 40px;
 }
+
 
 .clearfix {
   clear: both;
