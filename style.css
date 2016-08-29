@@ -37,6 +37,21 @@ html, body {
   font-size: 12px;
   margin-right: 25px;
 }
+.nav a:link {
+  color: white;
+}
+
+.nav a:visited {
+  color: white;
+}
+
+.nav a:hover {
+  color: red;
+}
+
+.nav a:active {
+  color: white;
+}
 
 .main {
   position: relative;
@@ -142,8 +157,12 @@ html, body {
   margin-bottom: 40px;
 }
 
+#about img {
+  padding-top: 50px;
+}
+
 #work {
-  padding-top: 80px;
+  padding-top: 20px;
   padding-bottom: 100px;
   background-color: #E8FDF5;
   color: #006C71;
@@ -169,6 +188,39 @@ html, body {
   line-height: 20px;
   padding: 0 50px;
   margin-bottom: 40px;
+  text-align: left;
+}
+
+#video {
+  padding-top: 80px;
+  padding-bottom: 100px;
+  background-color: white;
+  color: #006C71;
+}
+
+#video .col {
+  float: left;
+  width: 50%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+#video h2 {
+  font-weight: 600;
+  font-size: 23px;
+  text-transform: uppercase;
+}
+
+#video p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0 50px;
+  margin-bottom: 40px;
+}
+
+#video iframe {
+  padding-top: 20px;
 }
 
 #contact {
@@ -198,6 +250,11 @@ html, body {
   line-height: 20px;
   padding: 0 50px;
   margin-bottom: 40px;
+
+}
+
+#contact map {
+  margin-top: 50px;
 }
 
 
@@ -228,7 +285,54 @@ hr {
     /*padding: 0 40px;*/
   }
 
-  .supporting .col {
+  .summary .col {
     width: 100%;
   }
+
+  #about .col {
+    width: 100%;
+  }
+
+  #work .col {
+    width: 100%;
+  }
+
+  #video .col {
+    width: 100%;
+  }
+
+  #contact .col {
+    width: 100%;
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 780px) {
+  .main h1 {
+    font-size: 40px;
+    /*padding: 0 40px;*/
+  }
+
+  .summary .col {
+    width: 100%;
+  }
+
+  #about .col {
+    width: 100%;
+  }
+
+  #work .col {
+    width: 100%;
+  }
+
+  #video .col {
+    width: 100%;
+  }
+
+  #contact .col {
+    width: 100%;
+    text-align: center;
+  }
+
 }
