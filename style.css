@@ -162,19 +162,18 @@ html, body {
 }
 
 #work {
-  padding-top: 20px;
+  padding-top: 80px;
   padding-bottom: 100px;
-  background-color: #E8FDF5;
+  background-color: white;
   color: #006C71;
-  text-align: center;
-  font-family: 'Raleway', sans-serif;
 }
 
-/*.work .col {
+#work .col {
   float: left;
+  width: 50%;
   font-family: 'Raleway', sans-serif;
   text-align: center;
-}*/
+}
 
 #work h2 {
   font-weight: 600;
@@ -188,8 +187,12 @@ html, body {
   line-height: 20px;
   padding: 0 50px;
   margin-bottom: 40px;
-  text-align: left;
 }
+
+#work img {
+  padding-top: 50px;
+}
+
 
 #video {
   padding-top: 80px;
@@ -284,6 +287,9 @@ hr {
     font-size: 40px;
     /*padding: 0 40px;*/
   }
+  .main h3 {
+    display: none;
+  }
 
   .summary .col {
     width: 100%;
@@ -312,6 +318,10 @@ hr {
   .main h1 {
     font-size: 40px;
     /*padding: 0 40px;*/
+  }
+
+  .main h3 {
+    display: none;
   }
 
   .summary .col {
